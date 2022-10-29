@@ -17,3 +17,4 @@ for file in os.listdir():
     with open(file, "wb") as f:
       f.write(encrypted)
 #alteração do PH
+#alteração COde COmpany
